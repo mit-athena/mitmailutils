@@ -19,8 +19,11 @@ check:
 install:
 	${top_srcdir}/mkinstalldirs ${DESTDIR}${bindir}
 	${top_srcdir}/mkinstalldirs ${DESTDIR}${mandir}/man1
-	${INSTALL_SCRIPT} mitmailappend.pl ${DESTDIR}${bindir}/mitmailappend
-	${INSTALL} -m 444 ${srcdir}/mitmailappend.1 ${DESTDIR}${mandir}/man1
+	set -xe; \
+	for util in append create del exp move rename scan show; do \
+	    ${INSTALL_SCRIPT} mitmail$$util.pl ${DESTDIR}${bindir}/mitmail$$util; \
+	    ${INSTALL} -m 444 ${srcdir}/mitmail$$util.1 ${DESTDIR}${mandir}/man1; \
+	done
 
 clean:
 

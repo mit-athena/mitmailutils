@@ -19,5 +19,6 @@ The Athena source code was obtained from the Athena SVN repository at
   this software for any purpose.  It is provided "as is"
   without express or implied warranty.
 
-The Debian packaging is Copyright © 2007-2008 Tim Abbott and Anders
-Kaseorg, and has the same license as the original software.
+The Debian packaging is Copyright © 2007-2008 Tim Abbott, Anders
+Kaseorg, and Evan Broder, and has the same license as the original
+software.
