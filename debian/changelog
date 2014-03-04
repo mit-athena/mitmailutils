@@ -1,3 +1,10 @@
+debathena-mitmailutils (10.2.1-0debathena2) UNRELEASED; urgency=low
+
+  * Update dependency from libcyrus-imap-perl22 (which is gone as of
+    Lucid) to libcyrus-imap-perl24
+
+ -- Jonathan Reed <jdreed@mit.edu>  Tue, 04 Mar 2014 12:40:18 -0500
+
 debathena-mitmailutils (10.2.1-0debathena1) unstable; urgency=low
 
   * Fix regression failure from CDBS version: install from and its manpage
