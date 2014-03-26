@@ -1,4 +1,4 @@
-debathena-mitmailutils (10.2.1-0debathena2) UNRELEASED; urgency=low
+debathena-mitmailutils (10.2.2-0debathena1) UNRELEASED; urgency=low
 
   * Update dependency from libcyrus-imap-perl22 (which is gone as of
     Lucid) to libcyrus-imap-perl24
